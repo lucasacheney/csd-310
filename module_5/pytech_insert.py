@@ -11,7 +11,7 @@ from pymongo import MongoClient
 # This was imported to deal with SSL certificate errors
 import certifi                  
 
-# Code for dealing with errors, the call is in line 17
+# Code for dealing with errors, the call is in line 19
 ca = certifi.where()
 
 # URL to MongoDB instance
