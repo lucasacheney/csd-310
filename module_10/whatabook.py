@@ -126,6 +126,10 @@ if __name__ == "__main__":
                                 if quitFromNoUserID.lower() == "y":
                                     cont()
                                     sys.exit(2)
+                                else: 
+                                    print("Sorry, that is not a valid user id.")
+                                    cont()
+                                    sys.exit(2)
                             try:
                                 printaccountmain()
                                 option = int(input("$"))
